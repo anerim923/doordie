@@ -46,7 +46,7 @@ $(document).ready(function(){
         var isOpen = $('#gnbMo').hasClass('on');
 
         if(isOpen){
-            $('#gnbMo').removeClass('on')
+            $('#gnbMo').removeClass('on');
         }else{
             $('#gnbMo').addClass('on');
         }
